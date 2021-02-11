@@ -4,6 +4,7 @@ Python implementation of Symmetric Nonnegative Matrix Factorization of Elastic-n
 ## Python libraries required
  * munkres (for mapping cluster labels to groundtruth labels) [https://pypi.org/project/munkres/]
  * numpy
+ * sklearn (to compute clustering metrics)
  * pickle (only to save results in a pickle file during learning)
  * PIL (to read ORL input images)
  * scipy (to read MNIST, CALTECH101 and IMAGENET data)
